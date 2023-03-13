@@ -52,17 +52,11 @@ let infobt = `
 ▢ *${chats.length}* Total Chats
 
 *≡ OWNER*
-  *GURU*
+  *Jojo*
 ▢ Instagram :
-  • https://instagram.com/asli_guru69
+  • https://instagram.com/_munavir._
 ▢ WhatsApp :
-  • (NO NEED) 
-▢ GitHub :
-  • https://github.com/Guru322
-▢ Telegram : 
-  • t.me/i_want_to_be_isekaied (GURU) 
-▢ YouTube : 
-  • https://youtube.com/@Asliguru
+  • https://wa.me/918593074023
 
  *≡ S E R V E R*
 *🛑 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
@@ -72,8 +66,8 @@ let infobt = `
 ${'```' + Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v => v.length)), ' ')}: ${format(used[key])}`).join('\n') + '```'}
 `
 conn.sendButton(m.chat, infobt, igfg, null, [
-  ['ꨄ︎ donate', `${usedPrefix}donate`],
-   ['⌬ Groups', `${usedPrefix}gpguru`]
+  ['ꨄ︎ donate', `${usedPrefix}info`],
+   ['⌬ Menu', `${usedPrefix}help`]
  ], m)
 
 }

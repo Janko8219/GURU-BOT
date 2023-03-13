@@ -12,6 +12,6 @@ conn.sendHydrated2(m.chat, don, '▢ MAY LORD JAGANNATH BLESS YOUR DAY\n▢ ᴳ�
 
 handler.help = ['donate']
 handler.tags = ['main']
-handler.command = ['apoyar', 'donate', 'donar'] 
+handler.command = ['', '', ''] 
 
 export default handler

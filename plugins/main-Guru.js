@@ -28,6 +28,6 @@ https://chat.whatsapp.com/Jn9qVerYN6Q1L0vlVFe2XL
 `.trim())
 handler.help = ['gpdylux']
 handler.tags = ['main']
-handler.command = ['groups', 'groupguru', 'gugp', 'ggp', 'gpguru'] 
+handler.command = ['', '', '', '', ''] 
 
 export default handler

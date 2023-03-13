@@ -7,7 +7,7 @@ if (!args[0]) throw `*[❗𝐈𝐍𝐅𝐎❗] command for downloading instagram
 try {
 await m.reply(`*[❗] ᴅownloading ᴠɪᴅᴇᴏ, wait sometime ...*`)
 switch (command) {        
-case "instagramdl": case "instagram": case "igdl": case "ig": 
+case "insta": case "instagram": case "igdl": case "ig": 
 let human = await fetch(`https://api.lolhuman.xyz/api/instagram?apikey=${lolkeysapi}&url=${args[0]}`)
 let json = await human.json()
 let videoig = json.result
