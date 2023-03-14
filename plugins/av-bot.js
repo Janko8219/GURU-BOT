@@ -12,7 +12,7 @@ conn.sendButton(m.chat, `Hello *${name}* \n \nNeed help? \n`, igfg, null, [
 conn.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true })
 } 
 
-handler.customPrefix = /^(bot|guru)$/i
+handler.customPrefix = /^(bot|jojo)$/i
 handler.command = new RegExp
 
 export default handler
