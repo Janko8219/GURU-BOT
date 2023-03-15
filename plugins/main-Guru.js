@@ -1,6 +1,6 @@
 let handler = async m => m.reply(`
 
-≡  *GURU  ┃ ᴮᴼᵀ*   GRUPOS
+≡  *Jojo  ┃ ᴮᴼᵀ*   GRUPOS
 
 ─────────────
 ▢ Join public bot group and support
@@ -28,6 +28,6 @@ https://chat.whatsapp.com/Jn9qVerYN6Q1L0vlVFe2XL
 `.trim())
 handler.help = ['gpdylux']
 handler.tags = ['main']
-handler.command = ['', '', '', '', ''] 
+handler.command = ['gkgfv', 'hsibjn', 'hshfuh', 'wyiln', 'asmcuh'] 
 
 export default handler
